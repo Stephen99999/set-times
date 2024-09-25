@@ -1,0 +1,81 @@
+/* Styling the product container */
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the product header */
+.product-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Styling for the product details */
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+/* Styling for the product image */
+.product-image {
+    width: 150px;
+    height: 100px;
+}
+
+/* Styling for quantity control buttons */
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+/* Input field for quantity */
+.quantity {
+    width: 40px;
+    text-align: center;
+}
+
+/* Styling for product buttons */
+.product-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-now,
+.inquiry-basket {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-now:hover,
+.inquiry-basket:hover {
+    background-color: #444;
+}
+
+/* Additional styling for layout */
+.product-list {
+    max-width: 1000px;
+    position: absolute;
+    right: 0%;
+    padding: 20px;
+}
+
+video{
+    position: fixed;
+    left: 2%;
+    top: 12%;
+    z-index: 1;
+    width: 350px;
+    height: 90vh;
+}
